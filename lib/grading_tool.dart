@@ -1,8 +1,3 @@
-main() {
-  final calculator = GradingTool();
-  calculator.letterGradeCalculation(95);
-}
-
 class GradingTool {
   letterGradeCalculation(int score) {
     if (score >= 90) {
